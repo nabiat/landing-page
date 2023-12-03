@@ -88,6 +88,7 @@ a {
 
 .section-two {
     display: flex;
+    text-align: center;
     align-items: center;
     padding-left: 100px;
     padding-right: 100px;
@@ -95,7 +96,7 @@ a {
     justify-content: center;
 }
 
-.header-two {
+.title {
     font-size: 36px;
     font-weight: 800;
     margin-top: 32px;
@@ -104,28 +105,23 @@ a {
 
 .items-container {
     gap: 16px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     padding: 32px;
+    display: flex;
     margin-bottom: 16px;
+    justify-content: center;
 }
 
 .item {
     gap: 8px;
     display: flex;
+    max-width: 150px;
     align-items: center;
     flex-direction: column;
-    justify-content: center;
 }
 
 .placeholder-box {
     width: 125px;
     height: 120px;
-    border: 2px solid #3882F6;
     border-radius: 8px;
-}
-
-.text {
-    text-align: center;
+    border: 2px solid #3882F6;
 }
