@@ -6,7 +6,7 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
-.main-text, .logo, img, .action-header {
+.main-text, .logo, .action-header {
     color: #F9FAF8;
 }
 
@@ -79,13 +79,9 @@ a {
     justify-content: space-between;
 }
 
-.hero-placeholder {
-    width: 800px;
-    height: 225px;
+.hero-placeholder img {
+    width: 100%;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: gray;
 }
 
 .hero, .footer {
@@ -128,8 +124,7 @@ a {
 }
 
 .placeholder-image {
-    width: 135px;
-    height: 130px;
+    width: 100%;
     display: flex;
     border-radius: 8px;
     align-items: center;
@@ -139,7 +134,7 @@ a {
 
 /* Section Three */
 .section-three {
-    padding: 100px 200px;
+    padding: 72px 84px;
     background-color: #E5E7EB;
 }
 
@@ -162,7 +157,8 @@ a {
 }
 
 .call-to-action {
-    width: 900px;
+    gap: 52px;
+    width: 70%;
     display: flex;
     margin-top: 72px;
     border-radius: 4px;
