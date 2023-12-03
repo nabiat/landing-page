@@ -1,8 +1,9 @@
 body {
     margin: 0;
     display: flex;
-    font-family: "Roboto";
+    font-weight: lighter;
     flex-direction: column;
+    font-family: "Roboto", sans-serif;
 }
 
 /* Section One */
@@ -71,7 +72,7 @@ a {
 
 .main-text {
     font-size: 48px;
-    font-weight: 800;
+    font-weight: bold;
 }
 
 .secondary-text {
@@ -81,7 +82,7 @@ a {
 
 .logo {
     font-size: 24px;
-    font-weight: 800;
+    font-weight: bold;
 }
 
 /* Section Two */
@@ -104,8 +105,9 @@ a {
 }
 
 .items-container {
-    gap: 16px;
-    padding: 32px;
+    gap: 48px;
+    padding-top: 32px;
+    padding-bottom: 48px;
     display: flex;
     margin-bottom: 16px;
     justify-content: center;
@@ -120,8 +122,33 @@ a {
 }
 
 .placeholder-box {
-    width: 125px;
-    height: 120px;
+    width: 135px;
+    height: 130px;
     border-radius: 8px;
     border: 2px solid #3882F6;
+}
+
+/* Section Three */
+.section-three {
+    padding: 60px 140px;
+    background-color: #E5E7EB;
+}
+
+.quote {
+    gap: 8px;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.quote-text {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+}
+
+.author {
+    font-size: 24px;
+    font-weight: bold;
 }
